@@ -15,6 +15,7 @@
 		739E24162A36252A00071D96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739E24142A36252A00071D96 /* LaunchScreen.storyboard */; };
 		739E241E2A362C8F00071D96 /* ContactosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739E241D2A362C8F00071D96 /* ContactosViewController.swift */; };
 		739E24202A362E4D00071D96 /* ContactoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739E241F2A362E4D00071D96 /* ContactoTableViewCell.swift */; };
+		739E24232A3F6A6F00071D96 /* MeliDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 739E24212A3F6A6F00071D96 /* MeliDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		739E24172A36252A00071D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		739E241D2A362C8F00071D96 /* ContactosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactosViewController.swift; sourceTree = "<group>"; };
 		739E241F2A362E4D00071D96 /* ContactoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoTableViewCell.swift; sourceTree = "<group>"; };
+		739E24222A3F6A6F00071D96 /* MeliDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeliDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				739E24172A36252A00071D96 /* Info.plist */,
 				739E241D2A362C8F00071D96 /* ContactosViewController.swift */,
 				739E241F2A362E4D00071D96 /* ContactoTableViewCell.swift */,
+				739E24212A3F6A6F00071D96 /* MeliDataModel.xcdatamodeld */,
 			);
 			path = clase04T6YL;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				739E241E2A362C8F00071D96 /* ContactosViewController.swift in Sources */,
 				739E240A2A36252100071D96 /* AppDelegate.swift in Sources */,
 				739E24202A362E4D00071D96 /* ContactoTableViewCell.swift in Sources */,
+				739E24232A3F6A6F00071D96 /* MeliDataModel.xcdatamodeld in Sources */,
 				739E240C2A36252100071D96 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +370,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		739E24212A3F6A6F00071D96 /* MeliDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				739E24222A3F6A6F00071D96 /* MeliDataModel.xcdatamodel */,
+			);
+			currentVersion = 739E24222A3F6A6F00071D96 /* MeliDataModel.xcdatamodel */;
+			path = MeliDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 739E23FE2A36252100071D96 /* Project object */;
 }
