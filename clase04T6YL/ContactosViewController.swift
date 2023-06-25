@@ -83,6 +83,26 @@ class ContactosViewController: UIViewController, UITableViewDataSource, UITableV
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let contacto = contactoEntidadList[indexPath.row]
+        print(contacto.nombre ?? "")
+        print(contacto.numero  ?? "")
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "ContactoDetalleViewController") as! ContactoDetalleViewController
+        
+        vc.nombre = contacto.nombre ?? ""
+        vc.telefono = contacto.numero ?? ""
+        
+        //self.present(vc, animated: true, completion: nil)
+        
+//            Sin Navegacion
+//        vc.modalPresentationStyle = .fullScreen
+//        self.present(vc, animated: true, completion: nil)
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 //    func registrarContacto(nombre: String?, telefono: String?){
 //        if let name = nombre, let phone = telefono {
 //            let contacto = Contacto(nombre: name, telefono: Int(phone) ?? 0)
